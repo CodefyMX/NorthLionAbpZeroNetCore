@@ -1,0 +1,8 @@
+﻿<topbar></topbar>
+
+<div class="content account-forms">
+    <div *ngIf="showTenantChange()" class="content tenant-change-box">
+        <tenant-change></tenant-change>
+    </div>
+    <router-outlet></router-outlet>
+</div>
